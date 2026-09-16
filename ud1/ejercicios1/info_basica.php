@@ -10,7 +10,8 @@
     $nombre = "Jose Sendra";
     $anyo = 2005;
 
-    echo "<p>Me llamo $nombre y nací en el año $anyo.</p>"
+    echo "<h1>Ejercicio 1</h1>";
+    echo "<p>Me llamo $nombre y nací en el año $anyo.</p>";
 ?>
 </body>
 </html>
