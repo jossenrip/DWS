@@ -1,0 +1,88 @@
+/* estilos.css - hoja de estilos genérica y reutilizable */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5efe6;
+    color: #4a3f35;
+    margin: 0;
+    padding: 2rem;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #6b5a4a;
+    text-align: center;
+    font-weight: 600;
+}
+
+p {
+    text-align: center;
+    max-width: 700px;
+    margin: 1rem auto;
+    background-color: #ece2d0;
+    padding: 1rem 1.5rem;
+    border-radius: 16px;
+    box-shadow: 0 2px 6px rgba(107, 90, 74, 0.15);
+}
+
+a {
+    color: #8a6d3b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    margin: 1.5rem auto;
+    border-collapse: collapse;
+    background-color: #faf6ef;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 0.75rem 1.25rem;
+    border-bottom: 1px solid #e0d5c1;
+    text-align: center;
+}
+
+th {
+    background-color: #ddc9a3;
+    color: #4a3f35;
+}
+
+form {
+    max-width: 500px;
+    margin: 1.5rem auto;
+    background-color: #ece2d0;
+    padding: 1.5rem;
+    border-radius: 16px;
+}
+
+input, textarea, select, button {
+    font-family: inherit;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    width: 100%;
+    border: 1px solid #cbb994;
+    border-radius: 8px;
+    background-color: #faf6ef;
+}
+
+button {
+    background-color: #c9a876;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #b08e5c;
+}
