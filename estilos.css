@@ -86,3 +86,16 @@ button {
 button:hover {
     background-color: #b08e5c;
 }
+
+.enunciado {
+    text-align: center;
+    max-width: 700px;
+    margin: 1rem auto;
+    background-color: #e3d5bd;
+    color: #5c4b3a;
+    font-style: italic;
+    font-size: 0.95rem;
+    padding: 0.75rem 1.25rem;
+    border-left: 4px solid #b08e5c;
+    border-radius: 12px;
+}
