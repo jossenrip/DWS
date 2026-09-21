@@ -12,4 +12,4 @@ Prueba la página en un navegador y echa un vistazo al código fuente, intentand
 
 ## Comprobación
 
-![Comprobación](img/foto.png)
+![Comprobación](foto.png)
