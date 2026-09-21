@@ -2,10 +2,9 @@
 
 ## Enunciado
 
-Crea una página en la carpeta de ejercicios llamada curriculum.php donde, utilizando
-variables variables, muestres parte de tu currículum (por ejemplo, un párrafo con tus
-estudios y otro con los idiomas que hablas), tanto en español,valencià como en otro
-idioma que elijas.
+Crea una página llamada prueba_if.php en la carpeta de ejercicios del tema. Crea en
+ella dos variables llamadas $nota1 y $nota2, y dales el valor de dos notas de examen
+cualesquiera (con decimales si quieres). Después, utiliza expresiones if..else para determinar qué nota es la mayor de las dos.
 
 ## Comprobación
 

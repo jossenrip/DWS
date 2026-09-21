@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../../estilos.css">
-    <title>Ejercicio 4</title>
+    <title>Ejercicio 3</title>
 </head>
 <body>
     <?php
@@ -19,7 +19,7 @@
         $fraseEstudios = "estudios_" . $idioma;
         $fraseIdiomas = "idiomas_" . $idioma;
 
-        echo "<h1>Ejercicio 4</h1>";
+        echo "<h1>Ejercicio 3</h1>";
 
         echo "<p>" . $$fraseEstudios . "</p>";
         echo "<p>" . $$fraseIdiomas . "</p>";
