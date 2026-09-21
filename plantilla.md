@@ -6,4 +6,4 @@
 
 ## Comprobación
 
-![Comprobación](img/foto.png)
+![Comprobación](foto.png)
