@@ -99,3 +99,24 @@ button:hover {
     border-left: 4px solid #b08e5c;
     border-radius: 12px;
 }
+
+.tabla {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 1px;
+    max-width: 700px;
+    margin: 1.5rem auto;
+    background-color: #e0d5c1;
+    border: 1px solid #e0d5c1;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.tabla p {
+    max-width: none;
+    margin: 0;
+    padding: 0.75rem;
+    background-color: #faf6ef;
+    border-radius: 0;
+    box-shadow: none;
+}
