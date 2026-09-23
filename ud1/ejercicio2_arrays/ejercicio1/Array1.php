@@ -9,33 +9,40 @@
 <body>
     <?php
     echo "<h1>Ejercicio 1</h1>";
+
     $numeros = array();
 
     for ($i = 0; $i < 50; $i++){
         $num = rand(0, 99);
+
         while(in_array($num, $numeros)){
             $num = rand(0, 99);
         }
+
         $numeros[] = $num;
     }
 
     sort($numeros);
 
     echo "<div class=\"tabla\">";
-    for ($i =  0; $i < count($numeros); $i++){
+
+    for ($i = 0; $i < count($numeros); $i++){
         echo "<p>$numeros[$i]</p>";
     }
+
     echo "</div>";
 
 
     $mayor = $numeros[0];
     $menor = $numeros[0];
     $media = 0;
+
     for($i = 0; $i < count($numeros); $i++){
         $mayor = $mayor > $numeros[$i] ? $mayor : $numeros[$i];
         $menor = $menor < $numeros[$i] ? $menor : $numeros[$i];
         $media += $numeros[$i];
     }
+
     $media = $media / count($numeros);
 
     echo "<p><b>El mayor:</b> $mayor</p>";
