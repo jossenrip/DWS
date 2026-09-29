@@ -124,3 +124,14 @@ button:hover {
     border-radius: 0;
     box-shadow: none;
 }
+tr.verde td {
+    background-color: lightgreen;
+}
+
+td.azul {
+    background-color: lightblue;
+}
+
+tr.verde td.azul {
+    background-color: lightblue;
+}

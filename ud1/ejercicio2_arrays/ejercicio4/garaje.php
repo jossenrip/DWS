@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../../estilos.css">
-    <title>Ejercicio 5</title>
+    <title>Ejercicio 4</title>
 </head>
 <body>
     <?php
-        echo "<h1>Ejercicio 5</h1>";
+        echo "<h1>Ejercicio 4</h1>";
         
         define("NUMCOCHES", 5);
         $letras = array("A", "B", "C", "D", "E", "F", "G",
