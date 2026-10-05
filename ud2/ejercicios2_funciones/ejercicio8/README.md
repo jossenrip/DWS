@@ -1,4 +1,4 @@
-# UNIDAD 2 - EJERCICIO 4 - FUNCIONES
+# UNIDAD 2 - EJERCICIO 8 - FUNCIONES
 
 ## Enunciado
 EsCrIbE uNa FuNcIóN qUe TrAnSfOrMe UnA cAdEnA eN cAnI

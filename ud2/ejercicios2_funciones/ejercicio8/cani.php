@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../../estilos.css">
-    <title>Ejercicio 4</title>
+    <title>Ejercicio 8</title>
 </head>
 <body>
-    <h1>Ejercicio 4</h1>
+    <h1>Ejercicio 8</h1>
     <?php
 function cani($cadena){
     $resultado = "";

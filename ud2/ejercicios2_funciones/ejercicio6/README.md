@@ -1,12 +1,11 @@
-# UNIDAD 2 - EJERCICIO 4 - FUNCIONES
+# UNIDAD 2 - EJERCICIO 6 - FUNCIONES
 
 ## Enunciado
-Crea un programa llamado CasasRuralesTelefonos.php que cargue los datos de este
-archivo CSV de casas rurales de la provincia de Castellón.
-Queremos quedarnos con el id, localidad, nombre y telefono de las casas rurales que tengan un
-teléfono definido, descartando el resto.
-El programa debe mostrar por pantalla el listado final procesado, y cuántas casas rurales se
-han descartado por tener datos nulos.
+A partir de una frase con palabras sólo separadas por espacios, devolver:
+• Letras totales y cantidad de palabras
+• Una línea por cada palabra indicando su tamaño
+Nota: no se puede usar str_word_count
+
 ## Comprobación
 
 ![Comprobación](foto.png)

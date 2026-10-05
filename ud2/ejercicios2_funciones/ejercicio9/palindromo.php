@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../../estilos.css">
-    <title>Ejercicio 4</title>
+    <title>Ejercicio 9</title>
 </head>
 <body>
-    <h1>Ejercicio 4</h1>
+    <h1>Ejercicio 9</h1>
     <?php
     function esPalindromo($texto){
         $limpio = mb_strtolower(str_replace(" ", "", $texto));

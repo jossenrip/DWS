@@ -1,4 +1,4 @@
-# UNIDAD 2 - EJERCICIO 5 - FUNCIONES
+# UNIDAD 2 - EJERCICIO 9 - FUNCIONES
 
 ## Enunciado
 Escribe una función que devuelva un booleano indicando si una palabra es palíndroma (se lee
