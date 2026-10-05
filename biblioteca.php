@@ -44,4 +44,18 @@ function elMenorDe(): int {
     }
     return $menor;
 }
+
+#Comprobar que un número o frase sea palíndroma
+function esPalindromo($texto){
+    $limpio = mb_strtolower(str_replace(" ", "", $texto));
+    $longitud = mb_strlen($limpio);
+
+    for ($i = 0; $i < intdiv($longitud, 2); $i++) {
+        if (mb_substr($limpio, $i, 1) !== mb_substr($limpio, $longitud - 1 - $i, 1)) {
+            return false;
+        }
+    }
+
+    return true;
+}
 ?>
