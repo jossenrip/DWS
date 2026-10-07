@@ -109,4 +109,11 @@ function quitarPorDelante(int $num, int $cant): int{
     return $resultado;
 }
 
+#Ordenar arrays multidimensionales, pero no asociativos por x dato
+function ordenarMultidimensionales($array, $pos){
+    usort($array, function($a, $b) use ($pos){
+        return $a[$pos] <=> $b[$pos];
+    });
+    return $array;
+}
 ?>

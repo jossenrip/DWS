@@ -47,11 +47,11 @@
                 foreach($casas[$i] as $filas){
                     echo "<td>$filas</td>";
                 }
-                echo "<tr>";
+                echo "</tr>";
             }
         echo "</table>";
     } 
-    echo casasRurales();   
+    casasRurales();   
     ?>
 </body>
 </html>
