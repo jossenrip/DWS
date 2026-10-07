@@ -10,3 +10,5 @@ mostrar el formulario de acceso.
 
 ## Comprobación
 ![Comprobación](foto.png)
+![Comprobación](foto2.png)
+![Comprobación](foto3.png)
