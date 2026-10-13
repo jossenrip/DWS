@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1>Ejercicio 2</h1>
+        <form action="formulario.php" method="post">
+
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input id="nombre" name="nombre" type="text" class="form-control">
+            </div>
+
+            <div class="mb-3">
+                <label for="apellidos" class="form-label">Apellidos</label>
+                <input id="apellidos" name="apellidos" type="text" class="form-control">
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input id="email" name="email" type="email" class="form-control">
+            </div>
+
+            <div class="mb-3">
+                <label for="url" class="form-label">URL página personal</label>
+                <input id="url" name="url" type="url" class="form-control">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label d-block">Sexo</label>
+                <div class="form-check form-check-inline">
+                    <input id="hombre" name="sexo" type="radio" value="hombre" class="form-check-input">
+                    <label for="hombre" class="form-check-label">Hombre</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input id="mujer" name="sexo" type="radio" value="mujer" class="form-check-input">
+                    <label for="mujer" class="form-check-label">Mujer</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input id="otro" name="sexo" type="radio" value="otro" class="form-check-input">
+                    <label for="otro" class="form-check-label">Otro</label>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="convivientes" class="form-label">Número de convivientes en el domicilio</label>
+                <input id="convivientes" name="convivientes" type="number" min="0" class="form-control">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label d-block">Aficiones</label>
+                <div class="form-check form-check-inline">
+                    <input id="deporte" name="aficiones[]" type="checkbox" value="deporte" class="form-check-input">
+                    <label for="deporte" class="form-check-label">Deporte</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input id="musica" name="aficiones[]" type="checkbox" value="musica" class="form-check-input">
+                    <label for="musica" class="form-check-label">Música</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input id="lectura" name="aficiones[]" type="checkbox" value="lectura" class="form-check-input">
+                    <label for="lectura" class="form-check-label">Lectura</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input id="videojuegos" name="aficiones[]" type="checkbox" value="videojuegos" class="form-check-input">
+                    <label for="videojuegos" class="form-check-label">Videojuegos</label>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="menu" class="form-label">Menú favorito</label>
+                <select id="menu" name="menu[]" multiple class="form-select">
+                    <option value="paella">Paella</option>
+                    <option value="pizza">Pizza</option>
+                    <option value="hamburguesa">Hamburguesa</option>
+                    <option value="ensalada">Ensalada</option>
+                </select>
+            </div>
+
+            <button type="submit" name="boton" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
