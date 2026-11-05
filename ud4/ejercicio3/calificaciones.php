@@ -49,14 +49,20 @@
             echo "</tr>";
 
             for($i = 0; $i < count($_SESSION["alumnos"]); $i++){
+                for($j = 0; $j < count($_SESSION["alumnos"][$i]); $j++){
+                    $nombre = $_SESSION["alumnos"][$i]["nombre"];
+                    $nota1 = $_SESSION["alumnos"][$i]["nota1"];
+                    $nota2 = $_SESSION["alumnos"][$i]["nota2"];
+                    $nota3 = $_SESSION["alumnos"][$i]["nota3"];
+                }
                 $media = $nota1 + $nota2 + $nota3 / 3;  
 
                 echo "<tr>";
-                    echo "<td>" . $_SESSION["alumnos"][$i]["nombre"] . "<td>";
-                    echo "<td>" . $_SESSION["alumnos"][$i]["nota1"] . "<td>";
-                    echo "<td>" . $_SESSION["alumnos"][$i]["nota2"] . "<td>";
-                    echo "<td>" . $_SESSION["alumnos"][$i]["nota3"] . "<td>";
-                    echo "<td>" . $_SESSION["alumnos"][$i]["nombre"] . "<td>";
+                    echo "<td>" . $nombre . "<td>";
+                    echo "<td>" . $nota1 . "<td>";
+                    echo "<td>" . $nota2 . "<td>";
+                    echo "<td>" . $nota3 . "<td>";
+                    echo "<td>" . $media . "<td>";
                 echo "</tr>";
             }
         echo "</table>";
