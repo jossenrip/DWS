@@ -10,5 +10,3 @@ los datos.
 ## Comprobación
 
 ![Comprobación](foto.png)
-![Comprobación](foto2.png)
-![Comprobación](foto3.png)
