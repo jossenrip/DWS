@@ -66,18 +66,6 @@
                     $nota2 = $_SESSION["alumnos"][$i]["nota2"];
                     $nota3 = $_SESSION["alumnos"][$i]["nota3"];
                 }
-                $media = $nota1 + $nota2 + $nota3 / 3;  
-
-                echo "<tr>";
-                    echo "<td>" . $nombre . "<td>";
-                    echo "<td>" . $nota1 . "<td>";
-                    echo "<td>" . $nota2 . "<td>";
-                    echo "<td>" . $nota3 . "<td>";
-                    echo "<td>" . $media . "<td>";
-                $nombre = $_SESSION["alumnos"][$i]["nombre"];
-                $nota1 = $_SESSION["alumnos"][$i]["nota1"];
-                $nota2 = $_SESSION["alumnos"][$i]["nota2"];
-                $nota3 = $_SESSION["alumnos"][$i]["nota3"];
                 $media = round(($nota1 + $nota2 + $nota3) / 3);
 
                 echo "<tr>";
