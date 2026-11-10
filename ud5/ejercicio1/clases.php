@@ -61,7 +61,7 @@
             if($name == "numExpediente"){
                 return $this->numExpediente;
             }else{
-                parent::__get($name);
+                return parent::__get($name);
             }
         }
 

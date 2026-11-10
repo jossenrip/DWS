@@ -1,3 +1,6 @@
+<?php
+    require_once "clases.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,12 +13,14 @@
     <?php
         $persona = new Persona("11111111A", "Pepelu", "pepelu@gmail.com");
         $persona->__set("email", "pepdeu@gmail.com");
+        echo "<h1>Persona</h1>";
         echo $persona->mostrar();
     ?>
     <hr>
     <?php
-        $estudiante = new Estudiante("11111111A", "Pepelu", "pepelu@gmail.com");
-        $estudiante->__set("email", "pepdeu@gmail.com");
+        $estudiante = new Estudiante("22222222J", "Santi Mina", "smina@gmail.com", "1234Z");
+        $estudiante->__set("dni", "33333333P");
+        echo "<h1>Estudiante</h1>";
         echo $estudiante->mostrar();
     ?>
 </body>
