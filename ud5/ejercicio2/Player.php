@@ -120,13 +120,13 @@ class Futbolista
         return $this->amarillas;
     }
 
-    public function setAmarillas($amarillas)
+    public function setAmarilla($amarillas)
     {
         $this->amarillas = $amarillas;
         return $this;
     }
 
-    public function getRojas()
+    public function getRoja()
     {
         return $this->rojas;
     }
@@ -140,5 +140,27 @@ class Futbolista
     public function age() : int{
         $edad =  (new DateTime())->diff($this->getCumple())->y;
         return $edad;
+    }
+
+    public function score() : boolean{
+        if($this->getGoles > 0){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    public function addCard(int $cantidad, string $color){
+        if($color == 'Roja' || $color == 'Amarilla'){
+            $set = "set" . $color;
+            $get = "get" . $color;
+            if()){
+
+            }
+            $this->$set($this->get() + $cantidad);
+            return $this->$get();
+        }else{
+            throw new Exception("Prueba con 'Amarilla' o 'Roja' para el color de la tarjeta");
+        }
     }
 }
