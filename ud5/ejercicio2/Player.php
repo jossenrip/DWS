@@ -295,10 +295,6 @@ class Equipo
         return $this->nombre;
     }
 
-    public function getJugador(Futbolista $f){
-        return $this->jugadores[$f]->getNombre();
-    }
-
     public function getPartidos(){
         return $this->partidos;
     }
@@ -353,12 +349,8 @@ class Equipo
     }
 
     public function singlePlayer(Futbolista $f){
-        foreach($this->jugadores as $jugador){
-            if($jugador === $f){
-                echo $jugador->render();
-                return;
-            }
-        }
-        throw new Exception("El jugador no existe en este equipo.");
+        $this->jugadores[] = $f;
     }
+
+
 }
