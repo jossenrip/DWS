@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../../estilos.css">
+    <link rel="stylesheet" href="../../estilos.css">
     <title>Ejercicio 2</title>
 </head>
 <body>
@@ -25,7 +25,7 @@
                 if(mb_strtolower($linea[1], "UTF-8") == mb_strtolower("Atlético de Madrid", "UTF-8")){
                     $jugadores[] = new Futbolista(
                     $linea[4] . " " . $linea[5],
-                    new DateTime($linea[6]),
+                    DateTime::createFromFormat("d/m/Y", trim($linea[6])),
                     $linea[9], 
                     (int)($linea[11]), 
                     $linea[10], 
