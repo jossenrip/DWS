@@ -56,7 +56,7 @@
                 $equipo->singlePlayer($jugadores[$i]);
             }
 
-            $jugadores[array_rand($jugadores)]->render();
+            echo $jugadores[array_rand($jugadores)]->render();
             echo "<br>";
             $equipo->render();
             fclose($fp);
@@ -64,5 +64,3 @@
     ?>    
 </body>
 </html>
-<>
-{}

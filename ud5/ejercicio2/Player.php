@@ -320,13 +320,13 @@ class Equipo
     }
     
     public function render(){
-        echo "<b>Nombre:</b> " . $this->getNombre() . "</br>" .
-        "<b>Partidos:</b> " . $this->getPartidos() . "</br>" .
-        "<b>Victorias:</b> " . $this->getVictorias() . "</br>" .
-        "<b>Derrotas:</b> " . $this->getDerrotas() . "</br>" .
-        "<b>Empates:</b> " . $this->getEmpates() . "</br>" .
-        "<b>Goles a favor:</b> " . $this->getAFavor() . "</br>" .
-        "<b>Goles en contra:</b> " . $this->getEnContra() . "</br>" .
+        echo "<b>Nombre:</b> " . $this->getNombre() . "<br>" .
+        "<b>Partidos:</b> " . $this->getPartidos() . "<br>" .
+        "<b>Victorias:</b> " . $this->getVictorias() . "<br>" .
+        "<b>Derrotas:</b> " . $this->getDerrotas() . "<br>" .
+        "<b>Empates:</b> " . $this->getEmpates() . "<br>" .
+        "<b>Goles a favor:</b> " . $this->getAFavor() . "<br>" .
+        "<b>Goles en contra:</b> " . $this->getEnContra() . "<br>" .
         "<b>Jugadores:</b></br><table>";
             for($i = 0; $i < count($this->jugadores); $i++){
                 if($i == 0){
