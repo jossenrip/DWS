@@ -9,7 +9,7 @@
 <body>
     <h1>Ejercicio 2</h1>
     <?php
-        function compruebaHora($hora): boolean{
+        function compruebaHora($hora): bool{
             if(strlen($hora) != 8){
                 echo "<p>El formato es incorrecto. hh:mm:ss</p>";
                 return false; 

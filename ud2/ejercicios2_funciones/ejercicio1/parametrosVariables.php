@@ -11,7 +11,7 @@
     <?php
     function elMayorDe(): int {
         $argumentos = func_get_args();
-        $mayor;
+        $mayor = 0;
         for($i = 0; $i < count($argumentos); $i++){
             if($i == 0){
                 $mayor = $argumentos[$i];
