@@ -351,6 +351,4 @@ class Equipo
     public function singlePlayer(Futbolista $f){
         $this->jugadores[] = $f;
     }
-
-
 }
